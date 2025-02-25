@@ -1,0 +1,13 @@
+JMP start
+
+; Variables
+var1: A
+var2: F
+
+start:
+LDAC var1
+MVAC
+LDAC var2
+SUB
+OUT
+HALT
